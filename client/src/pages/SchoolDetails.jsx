@@ -13,7 +13,7 @@ function SchoolDetails() {
     const fetchSchool = async () => {
       try {
         const response = await axios.get(
-          `http://localhost:5000/api/schools/${id}`
+          `https://eduschool-hyp1.onrender.com/api/schools/${id}`
         );
 
         setSchool(response.data);

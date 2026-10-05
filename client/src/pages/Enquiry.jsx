@@ -19,7 +19,7 @@ function Enquiry() {
 
     try {
       await axios.post(
-        "http://localhost:5000/api/enquiries",
+        "https://eduschool-hyp1.onrender.com/api/enquiries",
         form
       );
 
